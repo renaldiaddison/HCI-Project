@@ -22,7 +22,7 @@ ul {
 
 .footer {
     position: relative;
-    background-color: #101010;
+    background-color: black;
     padding: 70px 0px;
     bottom: 0;
 
@@ -79,6 +79,7 @@ ul {
     border-radius: 50%;
     color: white;
     transition: all 0.3s ease;
+    overflow: hidden;
 }
 
 .social-media a:hover {
