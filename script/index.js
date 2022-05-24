@@ -28,8 +28,18 @@ carouselButtons.forEach(button => {
                 translateX = 0
             }
         }
-        console.log(currentImage)
         carouselImages.style.transform = `translateX(${translateX}vw)`
-        console.log(translateX)
     })
 })
+
+setInterval(() => {
+    if(currentImage !== totalImages+1) {
+        currentImage++
+        translateX -= 100
+    }
+    if(currentImage === totalImages+1) {
+        currentImage = 1
+        translateX = 0
+    }
+    carouselImages.style.transform = `translateX(${translateX}vw)`
+}, 5000);
