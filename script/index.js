@@ -42,4 +42,4 @@ setInterval(() => {
         translateX = 0
     }
     carouselImages.style.transform = `translateX(${translateX}vw)`
-}, 5000);
+}, 6000);

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: logo font;
+    src: url(../fonts/logo-font.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -29,8 +34,9 @@
     color: red;
     height: 100%;
     display: table-cell;
-    vertical-align: middle; 
-    font-family: 'Fira Sans', sans-serif;
+    vertical-align: middle;
+    font-size: larger;
+    font-family: logo font;
 }
 
 .navigation-bar {
