@@ -1,7 +1,6 @@
 const carouselImages = document.querySelector('.carousel-images')
 const carouselButtons = document.querySelectorAll('.carousel-button')
 const totalImages = document.querySelectorAll('.carousel-images img').length
-console.log(totalImages)
 let currentImage = 1
 let translateX = 0
 
@@ -42,4 +41,4 @@ setInterval(() => {
         translateX = 0
     }
     carouselImages.style.transform = `translateX(${translateX}vw)`
-}, 6000);
+}, 8000);

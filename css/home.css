@@ -16,8 +16,8 @@
 
 .carousel-images {
     display: flex;
-    transform: translateX(0);
-    transition: ease 1s;
+    transform: translate3d(0px);
+    transition: transform 0.7s;
 }
 
 .carousel-images img {
@@ -26,40 +26,37 @@
 }
 
 #prev{
-    background: black;
     height: 45px;
     width: 45px;
     color: white;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
-    opacity: 0.5;
     position: absolute;
-    transition: opacity 0.5s;
+    transition: ease 0.5s;
     z-index: 1;
-    left: 5px;
+    left: 20px;
 }
 
 #next{
-    background: black;
     height: 45px;
     width: 45px;
     color: white;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
-    opacity: 0.5;
     position: absolute;
-    transition: opacity 0.5s;
+    transition: ease 0.5s;
     z-index: 1;
-    right: 5px;
+    right: 20px;
+    align-items: center;
 }
 
 #next:hover {
-    opacity: 1;
+    font-size: 35px;
 }
 
 #prev:hover {
-    opacity: 1;
+    font-size: 35px;
 }
 
