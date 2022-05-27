@@ -1,9 +1,67 @@
+@font-face {
+    font-family: logo font;
+    src: url(../fonts/logo-font.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     box-sizing: border-box;
 }
+
+.banner {
+    position: relative;
+    background: url("https://picsum.photos/800/800");
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.banner-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    text-transform: capitalize;
+
+}
+
+.banner-container h1{
+    margin: 0;
+    font-size: 90px;
+
+}
+
+.banner-container h1 span {
+    font-family: logo font;
+    justify-content: center;
+    color: red;
+}
+
+.slogan {
+    margin-bottom: 20px;
+    display: block;
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.button {
+    color: black;
+    font-size: 18px;
+    transition: ease 0.3s;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
 
 .carousel {
     align-items: center;
@@ -17,7 +75,7 @@
 .carousel-images {
     display: flex;
     transform: translate3d(0px);
-    transition: transform 0.7s;
+    transition: transform 1.5s;
 }
 
 .carousel-images img {
