@@ -7,7 +7,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/navigation.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <script src="./index.js"></script>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/clothes.css">
+    <script src="../script/index2.js"></script>
     <title>M&T</title>
 </head>
 <body>
@@ -28,6 +30,115 @@
         </div>
     </div>
 
+    
+    <div class="clothes-category">
+            <h1>Category Top</h1>
+    </div>
+
+    <div id="content">
+        <section id="view-clothes">
+            <div class="card" onclick="handleClick(0)">
+            <img src="https://picsum.photos/801/800" alt="" />
+                <div>
+                    <h3>Clothes 1</h3>
+                </div>
+            </div>
+            <div class="card" onclick="handleClick(1)">
+                <img src="https://picsum.photos/802/800" alt="" />
+                <div>
+                    <h3>Clothes 2</h3>
+                </div>
+            </div>
+            <div class="card" onclick="handleClick(2)">
+                <img src="https://picsum.photos/803/800" alt="" />
+                <div>
+                    <h3>Clothes 3</h3>
+                </div>
+            </div>
+        </section>
+        <section id="view-clothes">
+            <div class="card" onclick="handleClick(3)">
+            <img src="https://picsum.photos/804/800" alt="" />
+                <div>
+                    <h3>Clothes 4</h3>
+                </div>
+            </div>
+            <div class="card" onclick="handleClick(4)">
+                <img src="https://picsum.photos/805/800" alt="" />
+                <div>
+                    <h3>Clothes 5</h3>
+                </div>
+            </div>
+            <div class="card" onclick="handleClick(5)">
+                <img src="https://picsum.photos/806/800" alt="" />
+                <div>
+                    <h3>Clothes 6</h3>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    
+
+    <div id="description">
+        <div id="description-clothes">
+          <div id="close" title="close" onclick="handleClose()"><button class="button">x</button></div>
+          <h1 id="title"></h1>
+          <div id="image"></div>
+          <h3>Information</h3>
+          <p id="price_clothes"></p>
+          <p id="size_clothes"></p>
+          <p id="color_clothes"></p>
+          <p id="category_clothes"></p>
+        </div>
+    </div>
+
+    <div class="clothes-category">
+            <h1>Category Bottom</h1>
+    </div>
+
+    <div id="content">
+        <section id="view-clothes">
+            <div class="card" onclick="handleClick(6)">
+            <img src="https://picsum.photos/800/807" alt="" />
+                <div>
+                    <h3>Clothes 7</h3>
+                </div>
+            </div>
+            <div class="card" onclick="handleClick(7)">
+                <img src="https://picsum.photos/800/808" alt="" />
+                <div>
+                    <h3>Clothes 8</h3>
+                </div>
+            </div>
+            <div class="card" onclick="handleClick(8)">
+                <img src="https://picsum.photos/800/809" alt="" />
+                <div>
+                    <h3>Clothes 9</h3>
+                </div>
+            </div>
+        </section>
+        <section id="view-clothes">
+            <div class="card" onclick="handleClick(9)">
+            <img src="https://picsum.photos/800/810" alt="" />
+                <div>
+                    <h3>Clothes 10</h3>
+                </div>
+            </div>
+            <div class="card" onclick="handleClick(10)">
+                <img src="https://picsum.photos/800/811" alt="" />
+                <div>
+                    <h3>Clothes 11</h3>
+                </div>
+            </div>
+            <div class="card" onclick="handleClick(11)">
+                <img src="https://picsum.photos/800/812" alt="" />
+                <div>
+                    <h3>Clothes 12</h3>
+                </div>
+            </div>
+        </section>
+    </div>
 
 
     <footer class="footer">
@@ -69,5 +180,6 @@
             </div>
         </div>
     </footer>
+    
 </body>
 </html>
