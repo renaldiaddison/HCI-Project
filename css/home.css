@@ -48,11 +48,12 @@
     display: block;
     font-size: 25px;
     font-family: 'Fira Sans', sans-serif;
-
+    text-shadow: 2px 2px 10px rgb(184, 184, 184);
 }
 
 .button {
-    color: black;
+    color: red;
+    text-decoration: underline;
     font-size: 18px;
     transition: ease 0.3s;
     font-family: 'Fira Sans', sans-serif;

@@ -1,0 +1,18 @@
+#view-locations {
+    display: flex;
+    text-align: start;
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.location1 {
+    
+    padding-left: 50px;
+    
+}
+
+.table-location{
+    margin: auto;
+}

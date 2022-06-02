@@ -1,0 +1,74 @@
+
+.bannerabout {
+    background-color: rgba(30, 30, 30, 0.2);
+    position: relative;
+    background: url("https://picsum.photos/1000/800");
+    background-size: cover;
+    height: 50vh;
+    overflow: hidden;
+
+}
+
+.bannerabout-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    text-transform: capitalize;
+
+}
+
+.bannerabout-container h1{
+    margin: 0;
+    font-size: 90px;
+
+}
+
+.bannerabout-container h2{
+    margin: 0;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+}
+
+.bannerabout-container h1 span {
+    font-family: logo font;
+    justify-content: center;
+    color: red;
+}
+
+.bannerabout-container h2 span {
+    justify-content: center;
+    text-shadow: 2px 2px 15px rgb(206, 206, 206);
+    color: rgb(255, 255, 255);
+}
+
+.titleabout {
+    margin-bottom: 20px;
+    display: block;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times;
+    color: rgb(0, 0, 0);
+}
+
+#content {
+    width: 60%;
+    padding: 30px;
+    margin: auto;
+}
+
+.description-about {
+    text-align: justify;
+}
+
+.description-about p{
+    padding-bottom: 30px;
+
+}
+
+.description-about h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times;
+}
