@@ -1,18 +1,27 @@
 #view-locations {
     display: flex;
     text-align: start;
-    width: 80%;
+    width: 100%;
     padding: 30px;
     margin: auto;
-    font-family: sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: large;
+    justify-content: center;
+    background-image: url("https://picsum.photos/1000/800");
 }
 
 .location1 {
-    
-    padding-left: 50px;
-    
+    padding: 15px;
+    margin-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.table-location{
-    margin: auto;
+.location1 h2 {
+    font-family: 'Times New Roman', Times;
+    font-size: 25px;
+}
+
+table tr td {
+    padding-right: 6px;
 }
