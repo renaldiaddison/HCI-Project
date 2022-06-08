@@ -48,8 +48,8 @@
 .titleabout {
     margin-bottom: 20px;
     display: block;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times;
+    font-size: 40px;
+    font-family: 'Fira sans', sans-serif;
     color: rgb(0, 0, 0);
 }
 
@@ -70,5 +70,5 @@
 
 .description-about h2{
     text-align: center;
-    font-family: 'Times New Roman', Times;
+    font-family: 'Fira sans', sans-serif;
 }
