@@ -8,8 +8,6 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
-    background: url("https://picsum.photos/1000/800");
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -18,16 +16,26 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
+.form-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url("https://picsum.photos/800/800");
+    background-size: cover;
+    margin: auto;
+    overflow: hidden;
+}
+
 .form {
     font-family: 'Fira Sans', sans-serif;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
     width: 500px;
     background: white;
     border-radius: 15px;
+    
 }
 
 .form h1 {
