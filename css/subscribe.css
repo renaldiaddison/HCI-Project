@@ -12,6 +12,12 @@ body{
     background: url("https://picsum.photos/1000/800");
 }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .form {
     margin-top: 50px;
     margin-bottom: 50px;
