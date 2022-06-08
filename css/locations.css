@@ -1,27 +1,32 @@
 #view-locations {
     display: flex;
+    flex-direction: column;
     text-align: start;
-    width: 100%;
-    padding: 30px;
     margin: auto;
     font-family: 'Fira Sans', sans-serif;
     font-size: large;
     justify-content: center;
-    background-image: url("https://picsum.photos/1000/800");
+    align-items: center;
+    background-image: url("../images/assets/background\ 2.jpg");
+    background-size: cover;
+}
+
+.loc iframe {
+    width: 80vw;
+    height: 80vh;
+    margin-top: 20px;
+   
 }
 
 .location1 {
-    padding: 15px;
-    margin-left: 15px;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 100px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: larger;
 }
+
 
 .location1 h2 {
-    font-family: 'Times New Roman', Times;
-    font-size: 25px;
-}
-
-table tr td {
-    padding-right: 6px;
+    font-weight: 500;
 }

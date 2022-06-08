@@ -20,7 +20,7 @@ input[type=number]::-webkit-outer-spin-button {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: url("https://picsum.photos/800/800");
+    background: url("../images/assets/slider\ 2.jpg");
     background-size: cover;
     margin: auto;
     overflow: hidden;
