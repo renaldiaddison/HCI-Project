@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url("https://picsum.photos/1000/800");
+}
+
+.form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 500px;
+    background: white;
+    border-radius: 15px;
+}
+
+.form h1 {
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.form form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .input{
+    position: relative;
+    border-bottom: 1px solid;
+    margin: 30px 0;
+}
+
+.input input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.agree-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sub-btn {
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: black;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.sub-btn:hover {
+    opacity: 90%;
+    transition: 0.5s;
+}
+
