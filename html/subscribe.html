@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../css/navigation.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/subscribe.css">
-    <script src="./index.js"></script>
     <title>M&T</title>
 </head>
 <body>
@@ -29,23 +28,23 @@
         </div>
     </div>
 
-    <div class="form">
+    <div class="form" id="form">
         <h1>Subscribe</h1>
         <form>
         <div class="input">
-            <input type="text" placeholder="Full Name" required>
+            <input type="text" id="name" placeholder="Full Name" required>
         </div>
         <div class="input">
-            <input type="email" placeholder="Email" required>
+            <input type="email" id="email" placeholder="Email" required>
         </div>
         <div class="input">
-            <input type="text" placeholder="Country" required>
+            <input type="text" id="country" placeholder="Country" required>
         </div>
         <div class="input">
-            <input type="tel" placeholder="Phone Number" required>
+            <input type="tel" id="phone-number"placeholder="Phone Number" required>
         </div>
         <div class="agree-box">
-            <input id="checkbox" type="checkbox" />
+            <input id="check-box" type="checkbox"/>
             <label for="checkbox">I agree to these terms and conditions</label>
         </div>
         <input class="sub-btn" type="submit" value="Subscribe">
@@ -92,5 +91,8 @@
             </div>
         </div>
     </footer>
+
+   
+    <script src="../script/subscribe.js"></script>
 </body>
 </html>
